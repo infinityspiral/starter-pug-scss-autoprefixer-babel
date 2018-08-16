@@ -1,15 +1,29 @@
 {
-  "name": "Pug SCSS Autoprefixer",
+  "name": "pug-scss-autoprefixer",
   "version": "1.0.0",
   "description": "Starter for html output with inline script tag, useful for code snippet generation. SCSS will render into CSS and then have vender prefixes added if needed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ['pug','sass','scss','autoprefixer','html'],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinityspiral/pug-scss-autoprefixer.git"
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "scss",
+    "autoprefixer",
+    "html"
+  ],
   "author": "Chris Norton",
   "license": "ISC",
-  "browserslist", "last 2 versions"
+  "bugs": {
+    "url": "https://github.com/infinityspiral/pug-scss-autoprefixer/issues"
+  },
+  "homepage": "https://github.com/infinityspiral/pug-scss-autoprefixer#readme",
+  "browserslist": "last 2 versions",
   "devDependencies": {
     "autoprefixer": "^9.1.1",
     "jstransformer-autoprefixer": "^2.0.0",
