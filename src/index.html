@@ -1,3 +1,31 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Basic Example</title><style>h1 {
-  color: orange; }
-</style></head></html><body><h1>Welcome.</h1></body>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Basic Example</title><style>html {
+  height: 100%; }
+
+body {
+  background: aqua;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.75)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75) 100%);
+  color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%; }
+
+.mainContent {
+  background: #003333;
+  border: 6px solid aqua;
+  border-radius: 10px;
+  font-family: monospace;
+  height: 300px;
+  padding: 10px 40px;
+  width: 300px; }
+  @media (max-width: 992px) {
+    .mainContent {
+      background: #ccffff; } }
+</style></head></html><body><div class="mainContent"><h1>Welcome</h1><p>This is a test</p></div></body>

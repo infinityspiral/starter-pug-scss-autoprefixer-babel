@@ -5,9 +5,41 @@ html(lang="en")
         title Basic Example
         style
             :autoprefixer():scss
-                h1 {
-                    color: orange;
+
+                $primaryColor: aqua;
+                $spaceUnit: 10px;
+
+
+                html {
+                    height:100%;
+                }
+
+                body{
+                    background: $primaryColor;
+                    background-image: linear-gradient(rgba(0,0,0,.25) 50%, rgba(0,0,0,.75) 100%);
+                    color: $primaryColor;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                }
+
+                .mainContent {
+                    background: darken($primaryColor, 40%);
+                    border: 6px solid $primaryColor;
+                    border-radius: 10px;
+                    font-family: monospace;
+                    height: 300px;
+                    padding: $spaceUnit $spaceUnit*4;
+                    width: 300px;
+
+                    @media (max-width: 992px){
+                        background: lighten($primaryColor, 40%);
+                    }
+
                 }
 
 body
-    h1 Welcome.
+    div.mainContent
+        h1 Welcome
+        p This is a test
