@@ -12,4 +12,8 @@ Styles are included directly into the page for a rapid setup environment useful 
 Scss files will be processed and then run through autoprefixer before being added to the final html file.
 
 ##Notes
-Currently browserlist for autoprefixer is set to use `last 2 versions` inside `package.json` you can change the string to support whatever versions you need to support.
+- `pug-cli` and `postcss-cli` may need to be installed globally via `npm i pug-cli postcss-cli  -g`
+- Currently browserlist for autoprefixer is set to use `last 2 versions` inside `package.json` you can change 
+the string to support whatever versions you need to support.
+- You can also auto-refresh changes using Live Edit see WebStorm docs at:
+https://www.jetbrains.com/help/webstorm/live-editing.html
