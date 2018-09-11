@@ -25,7 +25,9 @@
   "homepage": "https://github.com/infinityspiral/pug-scss-autoprefixer#readme",
   "browserslist": "last 2 versions",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "jstransformer-autoprefixer": "^2.0.0",
+    "jstransformer-babel": "^2.1.0",
     "jstransformer-scss": "^1.0.0",
     "pug-cli": "^1.0.0-alpha6"
   }
