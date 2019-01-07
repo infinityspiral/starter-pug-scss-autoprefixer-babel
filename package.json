@@ -30,9 +30,6 @@
     "@babel/preset-env": "^7.2.3",
     "autoprefixer": "^9.4.4",
     "babel-preset-env": "^1.7.0",
-    "jstransformer-autoprefixer": "^2.0.0",
-    "jstransformer-babel": "^2.1.0",
-    "jstransformer-scss": "^1.0.0",
     "live-server": "^1.2.1",
     "pug-cli": "^1.0.0-alpha6"
   },
