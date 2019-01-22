@@ -1,0 +1,17 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "browsers": [
+                    "Explorer 10"
+                ]
+            },
+            "useBuiltIns": "usage"
+        }]
+    ],
+	"ignore": [
+        "node_modules",
+        "dist/**/*.js"
+    ],
+    "sourceMaps": true
+}
