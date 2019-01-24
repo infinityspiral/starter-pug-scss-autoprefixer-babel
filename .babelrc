@@ -3,15 +3,16 @@
         ["@babel/preset-env", {
             "targets": {
                 "browsers": [
-                    "Explorer 10"
+                    "last 2 versions",
+                    "ie 10"
                 ]
             },
             "useBuiltIns": "usage"
-        }]
+        }],
+        "minify"
     ],
 	"ignore": [
         "node_modules",
         "dist/**/*.js"
-    ],
-    "sourceMaps": true
+    ]
 }

@@ -1,0 +1,25 @@
+html {
+  height: 100%; }
+
+body {
+  background: aqua;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75) 100%);
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+.mainContent {
+  background: #003333;
+  border: 6px solid aqua;
+  border-radius: 10px;
+  font-family: monospace;
+  height: 300px;
+  padding: 10px 40px;
+  width: 300px; }
+  @media (max-width: 992px) {
+    .mainContent {
+      background: #ccffff; } }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zdHlsZXMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUE7RUFDSSxZQUFXLEVBQUE7O0FBR2Y7RUFDSSxnQkFUZTtFQVVmLG9GQUE0RTtFQUM1RSxXQVhlO0VBWWYsYUFBYTtFQUNiLHVCQUF1QjtFQUN2QixtQkFBbUI7RUFDbkIsWUFBWSxFQUFBOztBQUdoQjtFQUNJLG1CQUFzQztFQUN0QyxzQkFBK0I7RUFDL0IsbUJBQW1CO0VBQ25CLHNCQUFzQjtFQUN0QixhQUFhO0VBQ2Isa0JBQWdDO0VBQ2hDLFlBQVksRUFBQTtFQUVaO0lBVEo7TUFVUSxtQkFBdUMsRUFBQSxFQUFBIiwiZmlsZSI6InN0eWxlcy5jc3MifQ== */
