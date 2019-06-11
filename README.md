@@ -2,7 +2,7 @@
 A starter package with watchers for WebStorm that allow you to render scss directly on the page.  This is useful for doing quick code snippets without having to build out a whole big thing with webpack.  
 
 ## Setup
-- Run `npm i pug-cli postcss-cli live-server autoprefixer -g`
+- Run `npm i node-sass pug-cli postcss-cli live-server autoprefixer -g`
 - To **enable watchers**:  
 *File>Settings>Tools>File Watchers* and turn on the watcher boxes.
 
