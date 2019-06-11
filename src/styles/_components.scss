@@ -1,0 +1,13 @@
+.mainContent {
+  background: darken($primaryColor, 40%);
+  border: 6px solid $primaryColor;
+  border-radius: 10px;
+  font-family: monospace;
+  height: 300px;
+  padding: $spaceUnit $spaceUnit*4;
+  width: 300px;
+
+  @media (max-width: 992px){
+    background: lighten($primaryColor, 40%);
+  }
+}

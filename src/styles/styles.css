@@ -307,22 +307,5 @@ html {
   height: 100%; }
 
 body {
-  background: aqua;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75) 100%);
   color: aqua;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%; }
-
-.mainContent {
-  background: #003333;
-  border: 6px solid aqua;
-  border-radius: 10px;
-  font-family: monospace;
-  height: 300px;
-  padding: 10px 40px;
-  width: 300px; }
-  @media (max-width: 992px) {
-    .mainContent {
-      background: #ccffff; } }
