@@ -4,7 +4,8 @@
   "description": "Starter for html output with inline script tag, useful for code snippet generation. SCSS will render into CSS and then have vender prefixes added if needed.",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --open=dist --wait=50"
+    "start": "live-server --open=dist --wait=50",
+    "eslintFix": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,13 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
-    "babel-preset-minify": "^0.5.1"
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
