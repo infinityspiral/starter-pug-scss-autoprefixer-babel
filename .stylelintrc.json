@@ -1,7 +1,11 @@
 {
-  "extends": "stylelint-config-sass-guidelines",
+  "plugins": [
+    "stylelint-scss"
+  ],
   "rules": {
     "indentation": "tab",
-    "number-leading-zero": "always"
+    "max-nesting-depth": 5,
+    "number-leading-zero": "always",
+    "selector-max-compound-selectors": 4
   }
 }
