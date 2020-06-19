@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@200;300;400&display=swap');
+
+$fontHeading: 'Oswald', sans-serif;
+$fontBody: 'Lato', sans-serif;
+$fontHeadingLineSpace: 1.6rem;
+$fontBodyLineSpace: 2.4rem;
+
+@mixin headingLight {
+	font-weight: 200;
+	font-family: $fontHeading;
+}
+
+@mixin headingBold {
+	font-weight: 400;
+	font-family: $fontHeading;
+}
+
+@mixin headingMedium {
+	font-weight: 300;
+	font-family: $fontHeading;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body, p {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	font-family: $fontBody;
+	color: $textContrastHigh;
+}
+
+h1 {
+	@include headingLight;
+	font-size: 5.6rem;
+	line-height: 6rem;
+	margin: 0 0 $fontHeadingLineSpace 0;
+}
+
+h2 {
+	@include headingBold;
+	font-size: 3.2rem;
+	line-height: 3.6rem;
+	margin: 0 0 $fontHeadingLineSpace 0;
+}
+
+h3 {
+	@include headingMedium;
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+	margin: 0 0 $fontHeadingLineSpace 0;
+}
+
+h4 {
+	@include headingLight;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+	margin: 0 0 $fontHeadingLineSpace 0;
+}
+
+
+h5 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 0 0 0.4rem 0;
+}
+
+h6 {
+  @include headingMedium;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 0 0 0.4rem 0;
+}
+
+p {
+	margin: 0 0 $fontBodyLineSpace 0;
+}
+
+small {
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	display: block;
+	padding: $spaceUnit;
+	border: 1px solid lighten(black, 90%);
+	margin: 0 0 $fontBodyLineSpace 0;
+}
+
+caption {
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	display: block;
+	padding: $spaceUnit;
+	border: 1px solid lighten(black, 90%);
+	margin: 0 0 $fontBodyLineSpace 0;
+}
+
+blockquote {
+	@include headingLight;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-size: 2.8rem;
+	line-height: 3.2rem;
+	color: $textContrastLow;
+	margin: 0 0 $fontHeadingLineSpace 0;
+	padding: $spaceUnit*4;
+	border: 1px solid $textContrastLow;
+}

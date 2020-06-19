@@ -1,0 +1,33 @@
+$gridColor: red;
+$gridSize: 4px;
+$lineSize: 1px;
+
+.verticalGrid {
+	display: none;
+	opacity: 0.75;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	background-image: repeating-linear-gradient(
+		0deg,
+		transparent,
+		transparent #{$gridSize - 1} calc(#{$gridSize} - #{$lineSize}),
+		$gridColor $lineSize,
+		transparent $gridSize
+	);
+}
+
+.typography-examples > h1,
+.typography-examples > h2,
+.typography-examples > h3,
+.typography-examples > h4,
+.typography-examples > h5,
+.typography-examples > h6,
+.typography-examples > p {
+	padding-bottom: $spaceUnit*2;
+	margin-bottom: $spaceUnit*2;
+	border-bottom: 1px solid lighten(black, 90%);
+}
