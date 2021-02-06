@@ -1,26 +1,26 @@
 [role*='main'] {
-  //this applies to everything
-  padding: $spaceUnit*2;
+	//this applies to everything
+	padding: $spaceUnit*2;
 
-  @media (min-width: 992px) {
-    max-width: 725px;
-  }
+	@media (min-width: 992px) {
+		max-width: 725px;
+	}
 }
 
 .hiddenUnlessTabbed {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 
-  &:focus {
-    position: relative;
-    left: initial;
-    top: initial;
-    width: initial;
-    height: initial;
-    overflow: initial;
-  }
+	&:focus {
+		position: relative;
+		left: initial;
+		top: initial;
+		width: initial;
+		height: initial;
+		overflow: initial;
+	}
 }
